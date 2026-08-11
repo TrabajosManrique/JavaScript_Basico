@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>JavaScript Básico</title>
+</head>
+
+<body>
+
+    <h1>JavaScript Básico</h1>
+
+    <p>JavaScript + POO + DOM/BOM desde cero</p>
+
+    <hr>
+
+    <h2>Introducción</h2>
+
+    <p>
+        Este material está pensado para estudiantes de Sistemas
+        de Información.
+    </p>
+
+    <p>
+        El objetivo es aprender JavaScript y utilizarlo para
+        crear interfaces web interactivas.
+    </p>
+
+    <hr>
+
+    <h2>Temas</h2>
+
+    <h3>1. Fundamentos de JavaScript</h3>
+
+    <p>
+        Variables, tipos y operadores.
+    </p>
+
+
+    <h3>2. Estructuras de control</h3>
+
+    <p>
+        If y bucles.
+    </p>
+
+
+    <h3>3. Funciones y ámbito</h3>
+
+    <p>
+        Las funciones permiten organizar y reutilizar código.
+    </p>
+
+
+    <h3>4. Objetos literales y Arrays</h3>
+
+    <p>
+        Los objetos y arrays permiten organizar información.
+    </p>
+
+
+    <h3>5. Programación Orientada a Objetos</h3>
+
+    <p>
+        Clases, constructor, this y new.
+    </p>
+
+
+    <h3>6. Herencia, polimorfismo y encapsulamiento</h3>
+
+    <p>
+        Son conceptos utilizados dentro de la Programación
+        Orientada a Objetos.
+    </p>
+
+
+    <h3>7. DOM</h3>
+
+    <p>
+        Permite manipular el documento de una página web. 
+	Representa la memoria de una estructura de un documento HTML en forma de un arbol de nodos que se pueden gestionar a partir de JS.
+    </p>
+
+
+    <h3>8. BOM</h3>
+
+    <p>
+        Permite trabajar con elementos relacionados con el navegador.
+	Es un conjunto de objetos que en el navegador expone para interactuar con las ventanas y sus componentes.
+    </p>
+
+
+    <h3>9. Sistema integrador</h3>
+
+    <p>
+        El proyecto final consiste en un registro de alumnos.
+    </p>
+
+    <hr>
+
+    <h2>Ejemplos</h2>
+
+    <h3>Variable</h3>
+
+    <pre>
+let nombre = "Juan";
+let edad = 16;
+
+console.log(nombre);
+console.log(edad);
+    </pre>
+
+
+    <h3>If</h3>
+
+    <pre>
+let edad = 16;
+
+if (edad >= 18) {
+    console.log("Mayor de edad");
+} else {
+    console.log("Menor de edad");
+}
+    </pre>
+
+
+    <h3>Función</h3>
+
+    <pre>
+function saludar() {
+    console.log("Hola");
+}
+
+saludar();
+    </pre>
+
+
+    <h3>Array</h3>
+
+    <pre>
+let alumnos = ["Juan", "Pedro", "Lucas"];
+
+console.log(alumnos);
+    </pre>
+
+
+    <h3>Objeto</h3>
+
+    <pre>
+let alumno = {
+    nombre: "Juan",
+    edad: 16
+};
+
+console.log(alumno.nombre);
+    </pre>
+
+    <hr>
+
+    <h2>Consejo</h2>
+
+    <p>
+        No avanzar sin entender cada definición.
+    </p>
+
+    <p>
+        Se puede utilizar F12 para abrir la consola del
+        navegador y probar los ejemplos.
+    </p>
+
+    <hr>
+
+    <p>
+        Trabajo de TIC - JavaScript Básico
+    </p>
+
+</body>
+
+</html>
