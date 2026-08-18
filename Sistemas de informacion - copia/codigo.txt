@@ -75,8 +75,9 @@
     <h3>7. DOM</h3>
 
     <p>
-        Permite manipular el documento de una página web. 
-	Representa la memoria de una estructura de un documento HTML en forma de un arbol de nodos que se pueden gestionar a partir de JS.
+        Permite manipular el documento de una página web.
+        Representa la estructura de un documento HTML en forma
+        de un árbol de nodos que se pueden gestionar a partir de JS.
     </p>
 
 
@@ -84,7 +85,8 @@
 
     <p>
         Permite trabajar con elementos relacionados con el navegador.
-	Es un conjunto de objetos que en el navegador expone para interactuar con las ventanas y sus componentes.
+        Es un conjunto de objetos que el navegador expone para
+        interactuar con las ventanas y sus componentes.
     </p>
 
 
@@ -152,6 +154,47 @@ let alumno = {
 
 console.log(alumno.nombre);
     </pre>
+
+
+    <h3>DOM</h3>
+
+    <p id="texto">
+        Este texto puede ser cambiado mediante JavaScript.
+    </p>
+
+    <button onclick="cambiarTexto()">Cambiar texto</button>
+
+    <pre>
+function cambiarTexto() {
+    document.getElementById("texto").textContent =
+        "El texto fue cambiado mediante el DOM.";
+}
+    </pre>
+
+
+    <h3>BOM</h3>
+
+    <button onclick="mostrarInformacion()">Mostrar información</button>
+
+    <pre>
+function mostrarInformacion() {
+    alert("Ancho de la ventana: " + window.innerWidth);
+}
+    </pre>
+
+    <script>
+
+        function cambiarTexto() {
+            document.getElementById("texto").textContent =
+                "El texto fue cambiado mediante el DOM.";
+        }
+
+        function mostrarInformacion() {
+            alert("Ancho de la ventana: " + window.innerWidth);
+        }
+
+    </script>
+
 
     <hr>
 
