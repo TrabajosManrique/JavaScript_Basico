@@ -16,11 +16,6 @@
     <h2>Introducción</h2>
 
     <p>
-        Este material está pensado para estudiantes de Sistemas
-        de Información.
-    </p>
-
-    <p>
         El objetivo es aprender JavaScript y utilizarlo para
         crear interfaces web interactivas.
     </p>
@@ -50,7 +45,7 @@
     </p>
 
 
-    <h3>4. Objetos literales y Arrays</h3>
+    <h3>4. Objetos y Arrays</h3>
 
     <p>
         Los objetos y arrays permiten organizar información.
@@ -60,11 +55,11 @@
     <h3>5. Programación Orientada a Objetos</h3>
 
     <p>
-        Clases, constructor, this y new.
+        Clases,this y new.
     </p>
 
 
-    <h3>6. Herencia, polimorfismo y encapsulamiento</h3>
+    <h3>6. Herencia y encapsulamiento</h3>
 
     <p>
         Son conceptos utilizados dentro de la Programación
@@ -87,13 +82,6 @@
         Permite trabajar con elementos relacionados con el navegador.
         Es un conjunto de objetos que el navegador expone para
         interactuar con las ventanas y sus componentes.
-    </p>
-
-
-    <h3>9. Sistema integrador</h3>
-
-    <p>
-        El proyecto final consiste en un registro de alumnos.
     </p>
 
     <hr>
